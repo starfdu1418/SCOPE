@@ -3,7 +3,7 @@
 ![](figures/arc_v2.png)
 
 > [**Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception**](https://arxiv.org/pdf/2307.13929.pdf),            
-> Kun Yang\*, Dingkang Yang\*, Jingyu Zhang, Mingcheng Li, Yang Liu, Jing Liu, Hanqi Wang, Peng Sun, Liang Song \
+> Kun Yang\*, Dingkang Yang\*, Jingyu Zhang, Mingcheng Li, Yang Liu, Jing Liu, Hanqi Wang, Peng Sun, Liang Song <br>
 > *Accepted by ICCV 2023*
 
 ## Abstract
