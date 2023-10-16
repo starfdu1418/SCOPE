@@ -62,12 +62,10 @@ opv2v # the downloaded opv2v data
 
 ## Getting Started
 ### Test with pretrained model
-We provide our pretrained models on V2XSet and OPV2V datasets. The download urls are as follows:
+We provide our pretrained models on V2XSet and OPV2V datasets. The download URLs are as follows:
 
-[V2XSet-Baidu Disk](https://pan.baidu.com/s/1N2IT8Pp11_hYai-EvY9Rjg?pwd=ztcw) \
-[V2XSet-Google Drive](https://drive.google.com/drive/folders/1P2dBEh9v5r1Y7008bXbNMOK9FB-_uWmd?usp=sharing) \
-[OPV2V-Baidu Disk](https://pan.baidu.com/s/13xDCs2bn-6FKoLdDgDj2Bw?pwd=v6zh)\
-[OPV2V-Google Drive](https://drive.google.com/drive/folders/1ezHtKYKD8a1os0HhPkRKkdeoxCjpeNf_?usp=sharing)
+* Baidu Disk URLs for [V2XSet](https://pan.baidu.com/s/1N2IT8Pp11_hYai-EvY9Rjg?pwd=ztcw) and [OPV2V](https://pan.baidu.com/s/13xDCs2bn-6FKoLdDgDj2Bw?pwd=v6zh).
+* Google Drive URLs for [V2XSet](https://drive.google.com/drive/folders/1P2dBEh9v5r1Y7008bXbNMOK9FB-_uWmd?usp=sharing) and [OPV2V](https://drive.google.com/drive/folders/1ezHtKYKD8a1os0HhPkRKkdeoxCjpeNf_?usp=sharing).
 
 To test the provided pretrained models of SCOPE, please download the model file and put it under v2xvit/logs/scope. The `validate_path` in the corresponding `config.yaml` file should be changed as `v2xset/test` or `opv2v/test`. 
 
@@ -100,11 +98,13 @@ given, the trainer will discard the `hypes_yaml` and load the `config.yaml` in t
 ## Citation
  If you are using our SCOPE for your research, please cite the following paper:
  ```bibtex
-@inproceedings{yang2023spatio,
-  title={Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception},
-  author={Yang, Kun and Yang, Dingkang and Zhang, Jingyu and Li, Mingcheng and Liu, Yang and Liu, Jing and Wang, Hanqi and Sun, Peng and Song, Liang},
-  booktitle={International Conference on Computer Vision (ICCV 2023)},
-  year={2023}
+@Inproceedings{yang2023spatio,
+    author    = {Yang, Kun and Yang, Dingkang and Zhang, Jingyu and Li, Mingcheng and Liu, Yang and Liu, Jing and Wang, Hanqi and Sun, Peng and Song, Liang},
+    title     = {Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {23383-23392}
 }
 ```
 
