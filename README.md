@@ -44,7 +44,7 @@ https://github.com/starfdu1418/SCOPE.git
 
 # install v2xvit into the conda environment
 python setup.py develop
-python opencood/utils/setup.py build_ext --inplace
+python v2xvit/utils/setup.py build_ext --inplace
 ```
 
 ## Data
